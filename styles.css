@@ -1,0 +1,123 @@
+header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #dfdfdf;
+  color: aliceblue;
+  text-align: center;
+  font-size: 40px;
+  filter: drop-shadow(0px 10px 50px rgb(119, 119, 119));
+}
+
+.topCenterCard {
+  position: relative;
+  max-width: 100%;
+  background-color: #670b0b;
+  color: aliceblue;
+  border-radius: 30px;
+  filter: drop-shadow(0px 5px 10px black);
+  width: 600px;
+  height: 100%;
+  margin: 180px auto 25px auto;
+  padding: 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.centerCard {
+  position: relative;
+  max-width: 100%;
+  background-color: #670b0b;
+  border-radius: 30px;
+  filter: drop-shadow(0px 5px 10px black);
+  width: 600px;
+  height: 100%;
+  margin: auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+h1 {
+  filter: drop-shadow(0px 5px 5px black);
+  color: aliceblue;
+  z-index: -1;
+}
+
+#headerBG {
+  background-color: #670b0b;
+  opacity: 0.1;
+  z-index: 0;
+  width: 400px;
+  height: 150px;
+  margin: -180px auto auto auto;
+  border-radius: 20px;
+}
+
+input {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  padding: 10px;
+  margin: 20px 20%;
+  border-radius: 20px;
+  color: black;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+  color: aliceblue;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  max-width: 100%;
+  background-color: #670b0b;
+  border-radius: 30px;
+  filter: drop-shadow(0px 5px 10px black);
+  margin: 30px 10px 30px 10px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+li:hover {
+  margin: 30px 20px 30px 20px;
+}
+
+#createNewButton {
+  width: 150px;
+  height: 75px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: #670b0b;
+  color: aliceblue;
+  filter: drop-shadow(0px 1px 5px rgb(255, 255, 255));
+  margin: auto;
+}
+
+#createNewButton:hover {
+  width: 160px;
+}
+
+.error {
+  background-color: darkred;
+  color: aliceblue;
+}
+
+.textboxes {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  padding: 10px;
+  margin: 20px 20%;
+  border-radius: 20px;
+  color: black;
+  font-size: 16px;
+}
+
+#instructions {
+  margin-top: 10px;
+  color: aliceblue;
+}
